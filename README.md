@@ -1,16 +1,82 @@
-# React + Vite
+# Stellar - Exoplanet Discovery Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based dashboard for exploring and predicting exoplanet discoveries using machine learning.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-19.2.0-blue)
+![Vite](https://img.shields.io/badge/Vite-8.0.0--beta.13-purple)
+![Recharts](https://img.shields.io/badge/Recharts-3.7.0-green)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- **Interactive Dashboard** - Visualize exoplanet data with interactive charts
+- **Prediction Engine** - ML-powered predictions for potential exoplanet discoveries
+- **Real-time Analytics** - Dynamic charts showing discovery trends and statistics
+- **Responsive Design** - Works seamlessly on desktop and mobile devices
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend Framework**: React 19
+- **Build Tool**: Vite 8
+- **Charting Library**: Recharts
+- **Styling**: CSS Modules / Vanilla CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+`ash
+# Clone the repository
+git clone https://github.com/worship-7/Stellar.git
+
+# Navigate to project directory
+cd Stellar
+
+# Install dependencies
+npm install
+`
+
+### Development
+
+`ash
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+`
+
+## Project Structure
+
+`
+src/
++-- App.jsx              # Main application component
++-- Charts.jsx           # Chart components for data visualization
++-- ExoplanetDashboard.jsx  # Main dashboard layout
++-- PredictionForm.jsx   # Form for exoplanet predictions
++-- PredictionResult.jsx # Display prediction results
++-- main.jsx             # Application entry point
+`
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (git checkout -b feature/amazing-feature)
+3. Commit your changes (git commit -m 'Add some amazing feature')
+4. Push to the branch (git push origin feature/amazing-feature)
+5. Open a Pull Request
+
+## License
+
+MIT License - feel free to use this project for your own purposes.
+
+---
+
+Built with ?? for space exploration enthusiasts
